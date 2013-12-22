@@ -1,0 +1,16 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<polymer-element name="islands-button" noscript>
+  <template>
+    <span class="button">
+        <span class="button__text">Привет</span>
+    </span>
+  </template>
+  <script>
+    Polymer('islands-button', {
+      ready: function() {
+        console.log('Button`s ready');
+      }
+    });
+  </script>
+</polymer-element>
